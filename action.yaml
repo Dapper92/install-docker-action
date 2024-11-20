@@ -1,9 +1,9 @@
-name: 'install Docker'
+name: 'Run containerization installation'
 description: 'A github Action to install Docker using official commands'
 author: 'dapper oladapper@gmail.com'
 runs: 
   using: 'composite'
   steps:
-    -  name: 'Install Docker'
+    -  name: 'Install tool'
        shell: bash
        run: entrypoint.sh
