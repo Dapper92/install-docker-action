@@ -1,0 +1,9 @@
+name: 'install Docker'
+description: 'A github Action to install Docker using official commands'
+author: 'dapper oladapper@gmail.com'
+runs: 
+  using: 'composite'
+  steps:
+    -  name: 'Install Docker'
+       shell: bash
+       run: entrypoint.sh
